@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{79196abc-50c1-468a-87c2-4c41c95477ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{1dd6fbd9-e9be-4478-b1b9-980011fd7ce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{a3a132a4-cd4a-4451-aedf-bac911855012}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\XH\Application.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\XH\Core.h" />
+    <ClInclude Include="src\XH\Application.h" />
+    <ClInclude Include="src\XH\EntryPoint.h" />
+    <ClInclude Include="src\XH.h" />
+  </ItemGroup>
+</Project>
