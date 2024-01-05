@@ -1,23 +1,78 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="头文件">
-      <UniqueIdentifier>{79196abc-50c1-468a-87c2-4c41c95477ec}</UniqueIdentifier>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{2AC788B4-1694-E3BF-3FAD-D1672BD9184E}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件">
-      <UniqueIdentifier>{1dd6fbd9-e9be-4478-b1b9-980011fd7ce8}</UniqueIdentifier>
+    <Filter Include="Platform\Windows">
+      <UniqueIdentifier>{64FBD71A-50F4-F66C-7926-DCF1657ED678}</UniqueIdentifier>
     </Filter>
-    <Filter Include="资源文件">
-      <UniqueIdentifier>{a3a132a4-cd4a-4451-aedf-bac911855012}</UniqueIdentifier>
+    <Filter Include="XH">
+      <UniqueIdentifier>{E5755900-D101-880B-3AB0-880B265B880B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XH\Core">
+      <UniqueIdentifier>{5D113125-C9F0-AFC0-D208-3B973E671622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XH\Events">
+      <UniqueIdentifier>{29EEDC3A-9558-91B1-DE96-42574A406F06}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\XH\Application.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="src\XH\Core.h" />
-    <ClInclude Include="src\XH\Application.h" />
-    <ClInclude Include="src\XH\EntryPoint.h" />
+    <ClInclude Include="src\Platform\Windows\WindowsWindow.h">
+      <Filter>Platform\Windows</Filter>
+    </ClInclude>
     <ClInclude Include="src\XH.h" />
+    <ClInclude Include="src\XH\Core\Application.h">
+      <Filter>XH\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XH\Core\Core.h">
+      <Filter>XH\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XH\Core\EntryPoint.h">
+      <Filter>XH\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XH\Core\Layer.h">
+      <Filter>XH\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XH\Core\LayerStack.h">
+      <Filter>XH\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XH\Core\Log.h">
+      <Filter>XH\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XH\Core\Window.h">
+      <Filter>XH\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XH\Events\ApplicationEvent.h">
+      <Filter>XH\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XH\Events\Event.h">
+      <Filter>XH\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XH\Events\KeyEvent.h">
+      <Filter>XH\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XH\Events\MouseEvent.h">
+      <Filter>XH\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\xhpch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp">
+      <Filter>Platform\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XH\Core\Application.cpp">
+      <Filter>XH\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XH\Core\Layer.cpp">
+      <Filter>XH\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XH\Core\LayerStack.cpp">
+      <Filter>XH\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XH\Core\Log.cpp">
+      <Filter>XH\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xhpch.cpp" />
   </ItemGroup>
 </Project>

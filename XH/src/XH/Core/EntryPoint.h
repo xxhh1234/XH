@@ -2,13 +2,12 @@
 
 #ifdef XH_PLATFORM_WINDOWS
 
-#include "stdio.h"
-
 extern XH::Application* XH::CreateApplication();
 
 int main(int argc, char** argv)
 {
-	printf("Hello World!");
+	XH::Log::Init();
+
 	auto app = XH::CreateApplication();
 	app->Run();
 	delete app;
