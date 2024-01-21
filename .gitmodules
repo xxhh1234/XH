@@ -1,0 +1,13 @@
+[submodule "XH/vendor/glm"]
+	path = XH/vendor/glm
+	url = git@github.com:g-truc/glm.git
+[submodule "XH/vendor/imgui"]
+	path = XH/vendor/imgui
+	url = git@github.com:TheCherno/imgui.git
+	branch = docking
+[submodule "XH/vendor/GLFW"]
+	path = XH/vendor/GLFW
+	url = git@github.com:TheCherno/glfw.git
+[submodule "XH/vendor/spdlog"]
+	path = XH/vendor/spdlog
+	url = git@github.com:gabime/spdlog.git
